@@ -26,7 +26,7 @@ const routes: Routes = [
         loadChildren: () =>
           import("./frontend/frontend.module").then((b) => b.FrontendModule),
         data: { addDynamicChild: true },
-      },
+      },      
     ],
   }  
 ];

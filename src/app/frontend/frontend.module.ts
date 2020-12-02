@@ -15,12 +15,13 @@ import {
 
 
 
+
 @NgModule({
   declarations: [
     FrontendComponent,
     HeaderComponent,
     FooterComponent,
-    FrontLandingComponent,    
+    FrontLandingComponent,        
   ],
   imports: [
     CommonModule,
