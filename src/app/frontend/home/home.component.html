@@ -1,1 +1,8 @@
-<p>home works! test</p>
+<section class="home">
+    <ul>
+        <li id="link1" (mouseover)="changeStyle('link1','in')" [class.hover-open]="hovered === 'link1'"  (mouseout)="changeStyle('link1','out')" class="nav-item"><a href="#">Link 1</a></li>
+        <li id="link1" (mouseover)="changeStyle('link2','in')" [class.hover-open]="hovered === 'link2'" (mouseout)="changeStyle('link2','out')"  class="nav-item"><a href="#">Link 2</a></li>
+        <li id="link1" (mouseover)="changeStyle('link3','in')" [class.hover-open]="hovered === 'link3'" (mouseout)="changeStyle('link3','out')"  class="nav-item"><a href="#">Link 3</a></li>
+        <li id="link1" (mouseover)="changeStyle('link4','in')" [class.hover-open]="hovered === 'link4'" (mouseout)="changeStyle('link4','out')"  class="nav-item" ><a href="#">Link 4</a></li>
+    </ul>
+</section>
